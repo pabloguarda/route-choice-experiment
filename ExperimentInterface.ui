@@ -1,0 +1,5058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1273</width>
+    <height>714</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>1111</width>
+      <height>650</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="experimenterScreenPage">
+     <widget class="QWidget" name="experimenterScreenPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_85">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="experimenterScreenTitleGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_86">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="experimenterScreenGrid"/>
+      </widget>
+      <widget class="QLabel" name="experimenterScreenTextAndPicturesPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="nextButtonExperimenterScreenPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_87">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonExperimenterScreenGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_88">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="experimenterScreenBlackSpacingGrid"/>
+      </widget>
+      <widget class="QWidget" name="formLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>160</y>
+         <width>301</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <layout class="QFormLayout" name="experimenterScreenFormLayout1"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_89">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>160</y>
+         <width>475</width>
+         <height>199</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="testingModeButtonsGrid">
+        <item row="3" column="2">
+         <widget class="QPushButton" name="realTestingUKModeButton">
+          <property name="text">
+           <string>Experiment UK</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QPushButton" name="fastTestingModeButton">
+          <property name="text">
+           <string>Fast Test</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QPushButton" name="descriptiveTestingModeButton">
+          <property name="text">
+           <string>Only Descriptive </string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <widget class="QPushButton" name="minimumScenariosTestingModeButton">
+          <property name="text">
+           <string>Minimum Scenarios</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QPushButton" name="controlConditionButton">
+          <property name="text">
+           <string>Control Condition</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QPushButton" name="realTestingChileModeButton">
+          <property name="text">
+           <string>Experiment Chile</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QPushButton" name="treatmentConditionButton">
+          <property name="text">
+           <string>Treatment Condition</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="4">
+         <widget class="QPushButton" name="windowsFontSizeButton">
+          <property name="text">
+           <string>Windows Font Size</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="4">
+         <widget class="QPushButton" name="macFontSizeButton">
+          <property name="text">
+           <string>Mac Font Size</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2" colspan="3">
+         <widget class="QLabel" name="experimenterModeLbl">
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Experimenter Mode&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="4">
+         <widget class="QPushButton" name="fastSpeedTestingModeButton">
+          <property name="text">
+           <string>Fast Speed</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="4">
+         <widget class="QPushButton" name="slowTestingModeButton">
+          <property name="text">
+           <string>Normal Speed </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="formLayoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>160</y>
+         <width>301</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <layout class="QFormLayout" name="experimenterScreenFormLayout2"/>
+      </widget>
+      <zorder>experimenterScreenTextAndPicturesPanel</zorder>
+      <zorder>gridLayoutWidget_85</zorder>
+      <zorder>gridLayoutWidget_86</zorder>
+      <zorder>nextButtonExperimenterScreenPanel</zorder>
+      <zorder>gridLayoutWidget_87</zorder>
+      <zorder>gridLayoutWidget_88</zorder>
+      <zorder>formLayoutWidget_2</zorder>
+      <zorder>gridLayoutWidget_89</zorder>
+      <zorder>formLayoutWidget_3</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="consent1Page">
+     <widget class="QWidget" name="consent1Panel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_27">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="consent1TextGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_28">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>470</y>
+         <width>1081</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="cBoxConsent1Grid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_29">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>781</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="consent1TitleGrid"/>
+      </widget>
+      <widget class="QLabel" name="Consent1BoxAndTextPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="consent1NextButtonPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_31">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonConsent1Grid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_47">
+       <property name="geometry">
+        <rect>
+         <x>790</x>
+         <y>10</y>
+         <width>301</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="consent1LogoGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_48">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>71</y>
+         <width>1081</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="consent1BlackSpacingGrid"/>
+      </widget>
+      <zorder>Consent1BoxAndTextPanel</zorder>
+      <zorder>consent1NextButtonPanel</zorder>
+      <zorder>gridLayoutWidget_27</zorder>
+      <zorder>gridLayoutWidget_28</zorder>
+      <zorder>gridLayoutWidget_29</zorder>
+      <zorder>gridLayoutWidget_31</zorder>
+      <zorder>gridLayoutWidget_47</zorder>
+      <zorder>gridLayoutWidget_48</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="consent2Page">
+     <widget class="QWidget" name="consent2Panel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_62">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="consent2TitleGrid"/>
+      </widget>
+      <widget class="QLabel" name="consent2TextAndPicturesPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="nextButtonConsent2Panel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_75">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonConsent2Grid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_76">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="consent2BlackSpacingGrid"/>
+      </widget>
+      <widget class="QWidget" name="formLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>240</y>
+         <width>661</width>
+         <height>301</height>
+        </rect>
+       </property>
+       <layout class="QFormLayout" name="consent2FormLayout">
+        <property name="fieldGrowthPolicy">
+         <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+        </property>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_74">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="consent2TextGrid"/>
+      </widget>
+      <zorder>consent2TextAndPicturesPanel</zorder>
+      <zorder>gridLayoutWidget_62</zorder>
+      <zorder>nextButtonConsent2Panel</zorder>
+      <zorder>gridLayoutWidget_75</zorder>
+      <zorder>gridLayoutWidget_76</zorder>
+      <zorder>formLayoutWidget</zorder>
+      <zorder>gridLayoutWidget_74</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="simulationExpGeneralDescriptionPage">
+     <widget class="QWidget" name="simulationExpGeneralDescriptionPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_23">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="experimentDescriptionGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_24">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>1081</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="experimentPicturesGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_25">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsSimulationExpGeneralDescriptionGrid">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="buttonBackSimulationExperimentGeneralDescription">
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Back</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <spacer name="horizontalSpacer_7">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>118</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="buttonNextSimulationExperimentGeneralDescription">
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Next</string>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_30">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpGeneralDescriptionTitleGrid"/>
+      </widget>
+      <widget class="QLabel" name="pushButtonsSimulationExpGeneralDescriptionPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="simulationExpGeneralDescriptionTextAndPicturesPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_49">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpGeneralDescriptionBlackSpacingGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_82">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>421</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="experimentLongDescriptionGrid"/>
+      </widget>
+      <zorder>simulationExpGeneralDescriptionTextAndPicturesPanel</zorder>
+      <zorder>pushButtonsSimulationExpGeneralDescriptionPanel</zorder>
+      <zorder>gridLayoutWidget_23</zorder>
+      <zorder>gridLayoutWidget_24</zorder>
+      <zorder>gridLayoutWidget_25</zorder>
+      <zorder>gridLayoutWidget_30</zorder>
+      <zorder>gridLayoutWidget_49</zorder>
+      <zorder>gridLayoutWidget_82</zorder>
+     </widget>
+     <widget class="QLabel" name="journeyPanel_11">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>80</y>
+        <width>921</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Helvetica</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignHCenter|Qt::AlignTop</set>
+      </property>
+     </widget>
+     <zorder>journeyPanel_11</zorder>
+     <zorder>simulationExpGeneralDescriptionPanel</zorder>
+    </widget>
+    <widget class="QWidget" name="simulationExpDescriptionPage">
+     <widget class="QWidget" name="simulationExpDescriptionPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_32">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpDescriptionTitleGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_33">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpDescriptionGrid"/>
+      </widget>
+      <widget class="QLabel" name="simulationExpDescriptionTextAndPicturesPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::PlainText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="nextButtonSimulationExpDescriptionPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_26">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsSimulationExpDescriptionGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_50">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpDescriptionGridBlackSpacingGrid"/>
+      </widget>
+      <zorder>simulationExpDescriptionTextAndPicturesPanel</zorder>
+      <zorder>gridLayoutWidget_32</zorder>
+      <zorder>gridLayoutWidget_33</zorder>
+      <zorder>nextButtonSimulationExpDescriptionPanel</zorder>
+      <zorder>gridLayoutWidget_26</zorder>
+      <zorder>gridLayoutWidget_50</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="scenarioDescriptionPage">
+     <widget class="QWidget" name="scenarioDescriptionPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_77">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="scenarioDescriptionTitleGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_78">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="scenarioDescriptionGrid"/>
+      </widget>
+      <widget class="QLabel" name="scenarioGeneralDescriptionTextAndPicturesPanel_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="nextButtonScenarioDescriptionPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_79">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsScenarioDescriptionGrid"/>
+      </widget>
+      <widget class="QProgressBar" name="accumulatedTimeBrakeProgressBar">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>280</y>
+         <width>791</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>24</number>
+       </property>
+       <property name="format">
+        <string notr="true">%p%</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="simulationExpPage">
+     <widget class="QWidget" name="simulationExpPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QLabel" name="virtualNetworkPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::PlainText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_8">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>540</y>
+         <width>301</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="journeyParametersGrid">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="directionGridLbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Route &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <layout class="QGridLayout" name="journeyClickableGrid">
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="directionGrid"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="startJourneyPanel">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>540</y>
+         <width>351</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="journeyPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>401</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="nextJourneyPanel">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>540</y>
+         <width>331</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="completedTripsPanel">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>10</y>
+         <width>541</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_16">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>280</y>
+         <width>831</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpStatusGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="simulationExpStatusLbl">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_21">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>541</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpStageGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="simulationExpStageLbl">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_14">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>540</y>
+         <width>351</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="startJourneyGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_20">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>540</y>
+         <width>331</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="nextJourneyGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_51">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpPageBlackSpacingGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_55">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>10</y>
+         <width>541</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="completedTripsGrid">
+        <item row="1" column="1">
+         <widget class="QProgressBar" name="progressBarCompletedTrips">
+          <property name="value">
+           <number>24</number>
+          </property>
+          <property name="format">
+           <string notr="true">%p%</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="simulationExpRemainingDaysLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <spacer name="horizontalSpacer_8">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="2">
+         <spacer name="horizontalSpacer_10">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_81">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpGrid">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_83">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>150</y>
+         <width>831</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpInstructionsGrid"/>
+      </widget>
+      <zorder>completedTripsPanel</zorder>
+      <zorder>nextJourneyPanel</zorder>
+      <zorder>startJourneyPanel</zorder>
+      <zorder>virtualNetworkPanel</zorder>
+      <zorder>gridLayoutWidget_8</zorder>
+      <zorder>journeyPanel</zorder>
+      <zorder>gridLayoutWidget_16</zorder>
+      <zorder>gridLayoutWidget_21</zorder>
+      <zorder>gridLayoutWidget_14</zorder>
+      <zorder>gridLayoutWidget_20</zorder>
+      <zorder>gridLayoutWidget_51</zorder>
+      <zorder>gridLayoutWidget_55</zorder>
+      <zorder>gridLayoutWidget_81</zorder>
+      <zorder>gridLayoutWidget_83</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="simulationExpChoicePage">
+     <widget class="QWidget" name="simulationExpChoicePanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>230</y>
+         <width>391</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="preferredJourneyClickableGrid">
+        <item row="0" column="1">
+         <layout class="QGridLayout" name="preferredDirectionGrid"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_10">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="preferredJourneyGrid">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="preferredJourneyLbl">
+          <property name="font">
+           <font>
+            <family>Helvetica</family>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="midLineWidth">
+           <number>5</number>
+          </property>
+          <property name="text">
+           <string>Please select your preferred bus route (red or blue). Then, click Next to watch _nConsequenceTrials_ trips in the route chosen</string>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_13">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>1081</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="moreJourneysGrid">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="1" column="0">
+         <widget class="QLabel" name="moreJourneysLbl">
+          <property name="font">
+           <font>
+            <family>Helvetica</family>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="text">
+           <string>If you want to watch additional journeys before making a final choice, please click Back</string>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+          <property name="indent">
+           <number>0</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_15">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>541</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="mapGrid"/>
+      </widget>
+      <widget class="QLabel" name="preferredDirectionPanel">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>200</y>
+         <width>541</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_22">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>10</y>
+         <width>541</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpChoiceProgressBarGrid">
+        <item row="1" column="1">
+         <widget class="QProgressBar" name="simulationExpChoiceProgressBar">
+          <property name="value">
+           <number>24</number>
+          </property>
+          <property name="format">
+           <string notr="true">%p%</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="simulationExpDecisionProblemCounterLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="2">
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="simulationExpChoiceProgressBarPanel">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>10</y>
+         <width>541</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="simulationExpChoiceStagePanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_12">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>541</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpChoiceStageGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="simulationExpChoiceStageLbl">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsSimulationExpChoiceGrid">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="buttonBackSimulationExpChoicePage">
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Back</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="buttonNextSimulationExpChoicePage">
+          <property name="font">
+           <font>
+            <pointsize>20</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Next</string>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <spacer name="horizontalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>118</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="pushButtonsSimulationExpChoicePanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_52">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="simulationExpChoiceBlackSpacingGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_11">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>541</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="horizontalSliderConfirmationGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_84">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>541</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="certaintyLevelConfirmationGrid"/>
+      </widget>
+      <widget class="QLabel" name="moreJourneysPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>1081</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>24</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="indent">
+        <number>0</number>
+       </property>
+      </widget>
+      <zorder>pushButtonsSimulationExpChoicePanel</zorder>
+      <zorder>preferredDirectionPanel</zorder>
+      <zorder>simulationExpChoiceStagePanel</zorder>
+      <zorder>simulationExpChoiceProgressBarPanel</zorder>
+      <zorder>layoutWidget</zorder>
+      <zorder>gridLayoutWidget_10</zorder>
+      <zorder>gridLayoutWidget_13</zorder>
+      <zorder>gridLayoutWidget_15</zorder>
+      <zorder>gridLayoutWidget_22</zorder>
+      <zorder>gridLayoutWidget_12</zorder>
+      <zorder>gridLayoutWidget_2</zorder>
+      <zorder>gridLayoutWidget_52</zorder>
+      <zorder>gridLayoutWidget_11</zorder>
+      <zorder>gridLayoutWidget_84</zorder>
+      <zorder>moreJourneysPanel</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="decisionExpDescriptionPage">
+     <widget class="QWidget" name="decisionExpDescriptionPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_34">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsDecisionExpDescriptionGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_35">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="decisionExpDescriptionTitleGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_36">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="decisionExpDescriptionGrid"/>
+      </widget>
+      <widget class="QLabel" name="nextButtonDecisionExpDescriptionPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="decisionExpGeneralDescriptionTextAndPicturesPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_53">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="decisionExpDescriptionBlackSpacingGrid"/>
+      </widget>
+      <zorder>nextButtonDecisionExpDescriptionPanel</zorder>
+      <zorder>decisionExpGeneralDescriptionTextAndPicturesPanel</zorder>
+      <zorder>gridLayoutWidget_34</zorder>
+      <zorder>gridLayoutWidget_35</zorder>
+      <zorder>gridLayoutWidget_36</zorder>
+      <zorder>gridLayoutWidget_53</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="decisionSeparateExpPage">
+     <widget class="QWidget" name="decisionSeparateExpPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_9">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>360</y>
+         <width>471</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="preferredDescriptiveJourneyClickableGrid">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="preferredDescriptiveJourneyGrid"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_19">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>470</y>
+         <width>1081</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="nextDescriptiveQuestionGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="nextDescriptiveQuestionLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;If you are sure about your response, please click Next to start with the following question.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_18">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>290</y>
+         <width>1081</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="preferredDescriptiveRouteGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="preferredDescriptiveRouteLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Please select your preferred route (A or B). You can change your preferred option by clicking the other option in the panel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_37">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsDecisionSeparateExpGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_39">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>10</y>
+         <width>491</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="decisionSeparateExpProgressBarGrid">
+        <item row="0" column="1">
+         <widget class="QLabel" name="nDecisionExpLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QProgressBar" name="decisionSeparateExpProgressBar">
+          <property name="value">
+           <number>24</number>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="2">
+         <spacer name="horizontalSpacer_9">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_40">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>150</y>
+         <width>481</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altBDecisionExpGrid">
+        <item row="0" column="0">
+         <widget class="QTableWidget" name="altBDecisionExpTableWidget"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_5">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>150</y>
+         <width>481</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altADecisionExpGrid">
+        <item row="0" column="0">
+         <widget class="QTableWidget" name="altADecisionExpTableWidget">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="decisionPreferredJourneyPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>1081</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altAPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>541</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="decisionSeparateProgressBarPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="pushButtonsDecisionSeparateExpPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBPanel">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>90</y>
+         <width>541</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_41">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>541</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altADecisionExpTitleGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="altADecisionExpTitleLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Route A</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_42">
+       <property name="geometry">
+        <rect>
+         <x>549</x>
+         <y>89</y>
+         <width>541</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altBDecisionExpTitleGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="altBDecisionExpTitleLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Route B</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_54">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="decisionExpBlackSpacingGrid"/>
+      </widget>
+      <zorder>decisionSeparateProgressBarPanel</zorder>
+      <zorder>altBPanel</zorder>
+      <zorder>altAPanel</zorder>
+      <zorder>pushButtonsDecisionSeparateExpPanel</zorder>
+      <zorder>decisionPreferredJourneyPanel</zorder>
+      <zorder>gridLayoutWidget_9</zorder>
+      <zorder>gridLayoutWidget_19</zorder>
+      <zorder>gridLayoutWidget_18</zorder>
+      <zorder>gridLayoutWidget_37</zorder>
+      <zorder>gridLayoutWidget_39</zorder>
+      <zorder>gridLayoutWidget_40</zorder>
+      <zorder>gridLayoutWidget_5</zorder>
+      <zorder>gridLayoutWidget_41</zorder>
+      <zorder>gridLayoutWidget_42</zorder>
+      <zorder>gridLayoutWidget_54</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="prospectExpPage">
+     <widget class="QWidget" name="prospectExpPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_17">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>430</y>
+         <width>471</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="preferredProspectJourneyClickableGrid">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="preferredProspectJourneyGrid"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_64">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>1081</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="preferredProspectRouteGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="preferredProspectRouteLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Please select your preferred route (A or B). You can change your preferred option by clicking the other option in the panel. Then, Click Next&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_65">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsProspectExpGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_66">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>10</y>
+         <width>651</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="prospectExpProgressBarGrid">
+        <item row="0" column="1">
+         <widget class="QLabel" name="nProspectExpLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QProgressBar" name="prospectExpProgressBar">
+          <property name="value">
+           <number>24</number>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <spacer name="horizontalSpacer_11">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="2">
+         <spacer name="horizontalSpacer_12">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_67">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>220</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altBWaitingProspectExpGrid">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="1" column="0">
+         <widget class="QLabel" name="altBWaitingTime1Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="altBWaitingTime2Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="altBProbWaitingTime2Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="altBProbWaitingTime1Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_68">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>220</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altAWaitingProspectExpGrid">
+        <property name="horizontalSpacing">
+         <number>-1</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>1</number>
+        </property>
+        <item row="1" column="1">
+         <widget class="QLabel" name="altAWaitingTime2Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="altAWaitingTime1Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="altAProbWaitingTime2Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="altAProbWaitingTime1Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="prospectPreferredJourneyPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>1081</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altAProspectPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>541</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="prospectProgressBarPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="pushButtonsProspectExpPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBProspectPanel">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>90</y>
+         <width>541</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_69">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>541</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altAProspectExpTitleGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="altAProspectExpTitleLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Route A</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_70">
+       <property name="geometry">
+        <rect>
+         <x>549</x>
+         <y>89</y>
+         <width>541</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altBProspectExpTitleGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="altBProspectExpTitleLbl">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Route B</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_71">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="prospectExpBlackSpacingGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_72">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>220</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altATravelProspectExpGrid">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="1" column="1">
+         <widget class="QLabel" name="altAProbTravelTime2Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="altAProbTravelTime1Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="altATravelTime1Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="altATravelTime2Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_73">
+       <property name="geometry">
+        <rect>
+         <x>870</x>
+         <y>220</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="altBTravelProspectExpGrid">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="1" column="1">
+         <widget class="QLabel" name="altBTravelTime2Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="altBTravelTime1Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="altBProbTravelTime2Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="altBProbTravelTime1Lbl">
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="altAWaitingProspectLbl">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>251</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Waiting Prospect&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altATravelProspectLbl">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>140</y>
+         <width>251</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Travel Prospect&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBWaitingProspectLbl">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>140</y>
+         <width>251</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Waiting  Prospect&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBTravelProspectLbl">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>140</y>
+         <width>251</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Travel Prospect&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altAWaitingTime2Panel">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>220</y>
+         <width>81</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altAWaitingTime1Panel">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>220</y>
+         <width>81</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altAWaitingTimePanel">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>220</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBWaitingTime2Panel">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>220</y>
+         <width>81</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBWaitingTime1Panel">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>220</y>
+         <width>81</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBWaitingTimePanel">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>220</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBTravelTime1Panel">
+       <property name="geometry">
+        <rect>
+         <x>870</x>
+         <y>220</y>
+         <width>81</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBTravelTime2Panel">
+       <property name="geometry">
+        <rect>
+         <x>960</x>
+         <y>220</y>
+         <width>81</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBTravelTimePanel">
+       <property name="geometry">
+        <rect>
+         <x>870</x>
+         <y>220</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altATravelTimePanel">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>220</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altATravelTime1Panel">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>220</y>
+         <width>81</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altATravelTime2Panel">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>220</y>
+         <width>81</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altAPlusSign">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>250</y>
+         <width>56</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:600;&quot;&gt;+&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="altBPlusSign">
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>250</y>
+         <width>56</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:600;&quot;&gt;+&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <zorder>altAProspectPanel</zorder>
+      <zorder>altBProspectPanel</zorder>
+      <zorder>altBTravelTimePanel</zorder>
+      <zorder>altAWaitingTimePanel</zorder>
+      <zorder>altBTravelTime1Panel</zorder>
+      <zorder>altBTravelTime2Panel</zorder>
+      <zorder>altBWaitingTime2Panel</zorder>
+      <zorder>altBWaitingTime1Panel</zorder>
+      <zorder>altBWaitingTimePanel</zorder>
+      <zorder>prospectPreferredJourneyPanel</zorder>
+      <zorder>prospectProgressBarPanel</zorder>
+      <zorder>gridLayoutWidget_17</zorder>
+      <zorder>gridLayoutWidget_64</zorder>
+      <zorder>gridLayoutWidget_65</zorder>
+      <zorder>gridLayoutWidget_66</zorder>
+      <zorder>gridLayoutWidget_67</zorder>
+      <zorder>gridLayoutWidget_68</zorder>
+      <zorder>pushButtonsProspectExpPanel</zorder>
+      <zorder>gridLayoutWidget_69</zorder>
+      <zorder>gridLayoutWidget_70</zorder>
+      <zorder>gridLayoutWidget_71</zorder>
+      <zorder>gridLayoutWidget_72</zorder>
+      <zorder>gridLayoutWidget_73</zorder>
+      <zorder>altAWaitingProspectLbl</zorder>
+      <zorder>altATravelProspectLbl</zorder>
+      <zorder>altBWaitingProspectLbl</zorder>
+      <zorder>altBTravelProspectLbl</zorder>
+      <zorder>altATravelTimePanel</zorder>
+      <zorder>altATravelTime1Panel</zorder>
+      <zorder>altATravelTime2Panel</zorder>
+      <zorder>altAWaitingTime1Panel</zorder>
+      <zorder>altAWaitingTime2Panel</zorder>
+      <zorder>altAPlusSign</zorder>
+      <zorder>altBPlusSign</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="demographicsPage">
+     <widget class="QWidget" name="demographicsPanel" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>180</y>
+         <width>471</width>
+         <height>361</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridDemographics">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetFixedSize</enum>
+        </property>
+        <item row="0" column="1">
+         <widget class="QSpinBox" name="txtAge"/>
+        </item>
+        <item row="1" column="0" rowspan="2">
+         <widget class="QLabel" name="countryFieldLbl">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Country of residence</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QRadioButton" name="radioButtonChile">
+          <property name="text">
+           <string>Chile</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="eduFieldLbl">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Education</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QComboBox" name="cboxEducation">
+          <property name="currentIndex">
+           <number>-1</number>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="ageFieldLbl">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Age</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QRadioButton" name="radioButtonUK">
+          <property name="text">
+           <string>United Kingdom</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="genderFieldLbl">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Gender</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QComboBox" name="cboxGender">
+          <property name="currentIndex">
+           <number>-1</number>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="2">
+         <widget class="QLabel" name="errorLbl">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>0</green>
+                <blue>0</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="WindowText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>69</red>
+                <green>69</green>
+                <blue>69</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="text">
+           <string>Error Message</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_38">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsDemographicsGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_43">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="demographicsTitleGrid"/>
+      </widget>
+      <widget class="QLabel" name="demographicsTextPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="pushButtonsDemographicsPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <zorder>pushButtonsDemographicsPanel</zorder>
+      <zorder>demographicsTextPanel</zorder>
+      <zorder>gridLayoutWidget</zorder>
+      <zorder>gridLayoutWidget_38</zorder>
+      <zorder>gridLayoutWidget_43</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="travelBehaviourPage">
+     <widget class="QWidget" name="travelBehaviourPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_59">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsTravelBehaviourGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_60">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="travelBehaviourGrid">
+        <item row="1" column="0">
+         <widget class="QStackedWidget" name="travelBehaviourStackedWidget">
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <widget class="QWidget" name="travelBehaviourStackedWidgetPage1">
+           <widget class="QWidget" name="formLayoutWidget_7">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>571</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <layout class="QFormLayout" name="travelBehaviourFormLayoutPage1">
+             <property name="fieldGrowthPolicy">
+              <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+             </property>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="formLayoutWidget_9">
+            <property name="geometry">
+             <rect>
+              <x>630</x>
+              <y>0</y>
+              <width>451</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <layout class="QFormLayout" name="travelBehaviourFormLayoutErrorMessagePage1">
+             <property name="fieldGrowthPolicy">
+              <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+             </property>
+            </layout>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="travelBehaviourStackedWidgetPage2">
+           <widget class="QWidget" name="formLayoutWidget_6">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>571</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <layout class="QFormLayout" name="travelBehaviourFormLayoutPage2">
+             <property name="fieldGrowthPolicy">
+              <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+             </property>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="formLayoutWidget_10">
+            <property name="geometry">
+             <rect>
+              <x>630</x>
+              <y>0</y>
+              <width>451</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <layout class="QFormLayout" name="travelBehaviourFormLayoutErrorMessagePage2">
+             <property name="fieldGrowthPolicy">
+              <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+             </property>
+            </layout>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="travelBehaviourStackedWidgetPage3">
+           <widget class="QWidget" name="gridLayoutWidget_6">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>270</y>
+              <width>541</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="waitingTimeReliabilityImportanceSliderGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_7">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>90</y>
+              <width>541</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="inVehicleTimeImportanceSliderGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_100">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>360</y>
+              <width>541</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="inVehicleTimeReliabilityImportanceSliderGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_101">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>180</y>
+              <width>541</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="journeyTimeImportanceSliderGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_102">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>0</y>
+              <width>541</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="waitingTimeImportanceSliderGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_103">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>241</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="waitingTimeImportanceSliderLblGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_104">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>270</y>
+              <width>241</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="waitingTimeReliabilityImportanceSliderLblGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_105">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>90</y>
+              <width>241</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="inVehicleTimeImportanceSliderLblGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_106">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>360</y>
+              <width>241</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="inVehicleTimeReliabilityImportanceSliderLblGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_107">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>180</y>
+              <width>241</width>
+              <height>91</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="journeyTimeImportanceSliderLblGrid"/>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_61">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="travelBehaviourTitleGrid"/>
+      </widget>
+      <widget class="QLabel" name="pushButtonsTravelBehaviourPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="experimentDebriefPage">
+     <widget class="QWidget" name="experimentDebriefPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_94">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsExperimentDebriefGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_95">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="experimentDebriefGrid">
+        <item row="1" column="0">
+         <widget class="QStackedWidget" name="experimentDebriefStackedWidget">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="experimentDebriefStackedWidgetPage1">
+           <widget class="QWidget" name="gridLayoutWidget_132">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>1081</width>
+              <height>101</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="experiencedExperimentIdentificationSliderDescriptionGrid">
+             <item row="0" column="0">
+              <widget class="QLabel" name="experiencedExperimentIdentificationSliderDescriptionLbl">
+               <property name="font">
+                <font>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_130">
+            <property name="geometry">
+             <rect>
+              <x>270</x>
+              <y>320</y>
+              <width>541</width>
+              <height>131</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="descriptiveExperimentIdentificationSliderGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_131">
+            <property name="geometry">
+             <rect>
+              <x>270</x>
+              <y>100</y>
+              <width>541</width>
+              <height>121</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="experiencedExperimentIdentificationSliderGrid"/>
+           </widget>
+           <widget class="QWidget" name="gridLayoutWidget_128">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>220</y>
+              <width>1081</width>
+              <height>101</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="descriptiveExperimentIdentificationSliderDescriptionGrid">
+             <item row="0" column="0">
+              <widget class="QLabel" name="descriptiveExperimentIdentificationSliderDescriptionLbl">
+               <property name="font">
+                <font>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="experimentDebriefStackedWidgetPage2">
+           <widget class="QWidget" name="formLayoutWidget_8">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>631</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <layout class="QFormLayout" name="experimentDebriefFormLayoutPage2">
+             <property name="fieldGrowthPolicy">
+              <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+             </property>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="formLayoutWidget_11">
+            <property name="geometry">
+             <rect>
+              <x>630</x>
+              <y>0</y>
+              <width>451</width>
+              <height>451</height>
+             </rect>
+            </property>
+            <layout class="QFormLayout" name="experimentDebriefFormLayoutErrorMessagePage2">
+             <property name="fieldGrowthPolicy">
+              <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+             </property>
+            </layout>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_96">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1081</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="experimentDebriefTitleGrid"/>
+      </widget>
+      <widget class="QLabel" name="pushButtonsExperimentDebriefPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="debriefPage">
+     <widget class="QWidget" name="debriefPanel" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>650</height>
+       </rect>
+      </property>
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="Base">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Window">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="gridLayoutWidget_44">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="pushButtonsDebriefGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_45">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>1081</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="debriefGrid">
+        <item row="0" column="0">
+         <widget class="QLabel" name="debriefLbl">
+          <property name="font">
+           <font>
+            <family>Helvetica</family>
+            <pointsize>24</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Thank you for your participation</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_46">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>811</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="debriefTitleGrid"/>
+      </widget>
+      <widget class="QLabel" name="pushButtonsDebriefPanel">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>1081</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Helvetica</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_56">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>10</y>
+         <width>271</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="debriefLogoGrid"/>
+      </widget>
+      <widget class="QWidget" name="gridLayoutWidget_58">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>1081</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="debriefBlackSpacingGrid"/>
+      </widget>
+      <zorder>pushButtonsDebriefPanel</zorder>
+      <zorder>gridLayoutWidget_44</zorder>
+      <zorder>gridLayoutWidget_45</zorder>
+      <zorder>gridLayoutWidget_46</zorder>
+      <zorder>gridLayoutWidget_56</zorder>
+      <zorder>gridLayoutWidget_58</zorder>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,2 @@
+Please select your preferred bus route (red or blue). Then click Next. 
+Imagine that you are choosing what route to use for your following _nConsequenceTrials_ trip(s). 

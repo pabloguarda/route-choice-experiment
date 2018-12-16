@@ -1,0 +1,13 @@
+EXPERIMENTAL BLOCK _nExperiment_ - Decision Problem _nChoiceSet_
+
+You will experience journeys in two bus routes during _nLearningTrials_ different days. Then, you will be asked to choose your preferred route. Finally, you will watch _nConsequenceTrials_ journeys in your preferred route.
+
+You will repeat this process _nChoiceSets_ times, before starting with the next part of the experiment. The origin and destination of the journeys will be the same in the decision problem. However, in the next decision problem, the origin and destination of the trips may change. 
+
+Each bus route is defined by its colour that can be red or blue. For each day, the direction of the journeys that you will experience will be given so you do not need to choose their directions. 
+
+To watch a journey, you have to click the button “Start Journey”. Once the trip has finished, you must press “Next Journey”. You have to repeat this process until watching the trips during the _nLearningTrials_ days. 
+
+Before clicking the button “Next Screen”, you should write down the direction of your preferred bus route (red, blue). In the next screen you will be asked to choose your preferred route. 
+
+Please click “Next” to start with decision problem number _nChoiceSet_.

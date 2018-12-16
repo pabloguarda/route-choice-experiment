@@ -1,0 +1,9 @@
+StartDate, 25102018
+StartTime, 200107
+ParticipantId, 99
+ParticipantName, Test
+ParticipantLastName, Test
+ComputerId, 99
+ExperimentalSession, 99
+ExperiencedCondition, simulatedControlCondition
+DescriptiveCondition, descriptiveControl

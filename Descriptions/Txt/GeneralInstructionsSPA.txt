@@ -1,0 +1,19 @@
+Fase de entrenamiento - Problema _nChoiceSet_
+
+En la próxima pantalla verás un ejemplo de una situación de elección entre dos rutas de buses. 
+
+Antes de elegir tu ruta de bus preferidas, verás _nTripsRoute_ viajes en cada ruta. Cada viaje está asociado a un cierto día. Los días son mostrados en el panel superior derecho de la siguiente sección. El orden en que se mostrarán los viajes en cada día es aleatorio pero al final verás _nTripsRoute_ viajas en cada ruta de bus. 
+
+El origen y destino del viaje puede variar. Los viajes podrían partir en la izquierda o derecha del mapa, y terminar en la parte derecha e izquierda, respectivamente.
+
+Cada viaje está compuesta por 4 etapas principales:
+1. Caminata al paradero
+2. Espera en el paradero de buses
+3. Viaje arriba del bus
+4. Caminata hacia la casa
+
+Las etapas serán descrita en el panel superior izquierdo de la siguiente pantalla. 
+
+Para iniciar cada viaje, debes presionar el botón “Viajar”. Posteriormente, se te preguntará por tu ruta preferida. Sin embargo, tienes la opción de volver mirar  _nTripsRoute_ viajes en cada ruta. 
+
+Por favor presiona siguiente para comenzar con una fase de entrenamiento del experimento.

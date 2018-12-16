@@ -1,0 +1,2 @@
+Imagina que estás decidiendo qué ruta de bus utilizar para tu próximo viaje. 
+Si ya tomaste tu decisión, selecciona tu ruta preferida en el panel derecho y presiona Siguiente.

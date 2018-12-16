@@ -33,11 +33,9 @@ from Scripts.ITS import * #Import class 'ITS'
 from Scripts.Location import * # class
 from Scripts.Mode import * #Import class 'Bus', 'Vehicle', 'Car', 'Bike'
 from Scripts.Network import * #Import class 'Route'
+from Scripts.Participant import *  # Class participant
 from Scripts.Person import * #Import class 'Person'
 from myWidgets import *
-from Scripts.Participant import * #Class participant
-from Scripts.FilesProcessing import *
-import csv
 
 # ***************  Creation and Formatting of Main Window *************************************** #
 
@@ -5528,8 +5526,8 @@ def setupDemographicsPage():
     if window.mainExperiment.languageCondition == "spanish":
 
         setTitlePage(grid=ui.demographicsTitleGrid, text="Datos Personales"
-                     ,capitalLetters = True, fontLetter = window.fontLetter, fontFactor = window.fontFactor)
-        ui.demographicsDescriptionLbl.setText("Por favor completa la siguiente información")
+                     , capitalLetters=True, fontLetter=window.fontLetter, fontFactor=window.fontFactor)
+        # ui.demographicsDescriptionLbl.setText("Por favor completa la siguiente información")
         ui.cboxEducation.addItems(["", "Pregrado", "Posgrado", "Otro"])
         ui.cboxGender.addItems(["", "Masculino", "Femenino", "Prefiero no decir"])
         ui.ageFieldLbl.setText("Edad")
@@ -6244,24 +6242,37 @@ def createFormLayoutTravelBehaviourPage(page):
             #Dictionary with the description of each question
             questionsDescriptionsPage2Dict = questionsDescriptionsPage2SPADict
 
-            # Trip origin (Radio Buttons)
-            ui.radioButtonWorkOrigin.setText("Trabajo")
-            ui.radioButtonStudyOrigin.setText("Universidad")
-            ui.radioButtonHomeOrigin.setText("Casa")
-            ui.radioButtonOtherOrigin.setText("Otro")
+            # Trip origin (Combo box)
+            ui.comboBoxOriginPlace.addItems([" ", "Universidad", "Trabajo", "Casa", "Other"])
+            ui.lineEditOtherOriginPlaceLbl.setText("Si otro, por favor especificar:")
+            ui.comboBoxOriginPlaceLbl.setText("Lugar")
+
+            # # Trip origin (Radio Buttons)
+            # ui.radioButtonWorkOrigin.setText("Trabajo")
+            # ui.radioButtonStudyOrigin.setText("Universidad")
+            # ui.radioButtonHomeOrigin.setText("Casa")
+            # ui.radioButtonOtherOrigin.setText("Otro")
 
             #Trip Origin Borough
             ui.comboBoxOriginBoroughLbl.setText("Comuna")
+            ui.lineEditOtherOriginBoroughLbl.setText("Si otro, por favor especificar:")
 
-            # Trip destination (Combo box)
-            ui.radioButtonWorkDestination.setText("Trabajo")
-            ui.radioButtonStudyDestination.setText("Universidad")
-            ui.radioButtonHomeDestination.setText("Casa")
-            ui.radioButtonOtherDestination.setText("Otro")
-            ui.lineEditOtherDestinationLbl.setText("Por favor specifica:")
+            # # Trip destination (Combo box)
+            # ui.radioButtonWorkDestination.setText("Trabajo")
+            # ui.radioButtonStudyDestination.setText("Universidad")
+            # ui.radioButtonHomeDestination.setText("Casa")
+            # ui.radioButtonOtherDestination.setText("Otro")
+            # ui.lineEditOtherDestinationLbl.setText("Por favor specifica:")
+
+            # Trip Destination Borough
+            ui.comboBoxDestinationBoroughLbl.setText("Comuna")
+            ui.lineEditOtherDestinationBoroughLbl.setText("Si otro, por favor especificar:")
 
             #Trip Destination Borough
             ui.comboBoxDestinationBoroughLbl.setText("Comuna")
+            ui.lineEditOtherDestinationBoroughLbl.setText("Si otro, por favor especificar:")
+
+            ui.errorMessageTravelBehaviourPage2Lbl = QLabel()
 
         if window.mainExperiment.languageCondition == "english":
 

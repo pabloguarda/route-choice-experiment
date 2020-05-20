@@ -1,9 +1,14 @@
 # ***************  Generic Functions *************************************** #
 
-import sys
-from os import listdir # This library has some functions to read the list of files names in a folder
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
+
+from Qt import QtWidgets
+#import PyQt4
+#from PyQt4 import Qt
+#from PyQt4 import QtCore
+#from PyQt4 import QtGui
+
+#from PyQt4.QtGui import *
+#%from PyQt4.QtCore import *
 from ExperimentInterface import * #UI of the experiment
 from datetime import datetime #This library contain functions that return the current time and date in the computer. It will be used for the function fileNameId
 from Scripts.TimeSpace import *

@@ -1,4 +1,12 @@
-# ***************   ASSIGNMENT 3 PROGRAMMING: Student ID RKDZ4 *************************************** #
+# ***************   UCL Experiment *************************************** #
+
+#Install PYQT 4 from https://www.riverbankcomputing.com/static/Docs/PyQt4/installation.html
+#Instrucions http://www.noktec.be/python/how-to-install-pyqt4-on-osx
+#https://stackoverflow.com/questions/26021882/installing-pyqt4-on-mac-osx-mavericks
+#unset PYTHONPATH
+#brew install sip --with-python3
+#brew install pyqt --with-python3
+
 
 #1) USER INTERFACE (UI):
 # ExperimentInterface.ui: Contains the initial user interface (UI) of the program. It is basically a Stacked Widget with 5 pages
@@ -27,6 +35,20 @@
 
 # ***************  Import libraries *************************************** #
 
+import site
+import os
+from os import listdir # This library has some functions to read the list of files names in a folder
+import sys
+QTPY_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         'vendor', 'Qt.py')
+site.addsitedir(QTPY_PATH)
+sys.path.append(QTPY_PATH)
+
+import os
+os.environ['QT_SIP_API_HINT'] = "2"
+os.environ["QT_VERBOSE"] = "True"
+import Qt
+
 from Animations import * #Mode class
 from Scripts.Experiment import *
 from Scripts.ITS import * #Import class 'ITS'
@@ -38,7 +60,7 @@ from Scripts.Person import * #Import class 'Person'
 from myWidgets import *
 
 # ***************  Creation and Formatting of Main Window *************************************** #
-
+#os.environ["QT_PREFERRED_BINDING"] = "1"
 #Default command to create the main window and launch the UI.
 app = QApplication(sys.argv)
 window = QMainWindow()
@@ -8013,4 +8035,3 @@ def createDescriptiveBlocks():
 window.show()
 
 sys.exit(app.exec_())
-

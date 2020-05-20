@@ -1,14 +1,21 @@
 # ***************  Generic Functions *************************************** #
 
 
-from Qt import QtWidgets
+# from Qt import QtWidgets
+
 #import PyQt4
 #from PyQt4 import Qt
 #from PyQt4 import QtCore
 #from PyQt4 import QtGui
-
 #from PyQt4.QtGui import *
 #%from PyQt4.QtCore import *
+from PyQt5.QtGui import QPalette, QColor, QFont
+
+from PyQt5 import QtGui, QtCore, uic, QtWidgets
+# from PyQt5.QtWidgets import QMainWindow, QApplication, QDesktopWidget
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import QPalette, QColor
+
 from ExperimentInterface import * #UI of the experiment
 from datetime import datetime #This library contain functions that return the current time and date in the computer. It will be used for the function fileNameId
 from Scripts.TimeSpace import *
@@ -35,7 +42,8 @@ def windowMaximized(window,fullScreen, showMainWindowTitle):
     # In this way, the program will work well, regardless the screen resolution
     Percentage of the window that will be margin (default 0)
     """
-    screen = QtGui.QDesktopWidget().screenGeometry()
+    # screen = QtGui.QDesktopWidget().screenGeometry()
+    screen = QDesktopWidget().screenGeometry()
     window.setGeometry(0, 0, screen.width(), screen.height())
 
     windowMaximized = QMainWindow()

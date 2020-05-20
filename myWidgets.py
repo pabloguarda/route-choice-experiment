@@ -1,5 +1,6 @@
 from Scripts.Functions import * #Import py file with my own functions
-
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import (Qt, pyqtSignal)
 
 # ***************   Classes *************************************** #
 
@@ -218,7 +219,7 @@ class mySliderBar(QWidget):
         #Eliminate spacing of grid
         self.layout.setHorizontalSpacing(0)
         self.layout.setVerticalSpacing(0)
-        self.layout.setMargin(0)
+        self.layout.setContentsMargins(0,0,0,0)# .setMargin(0)
 
         #Create Slider
 

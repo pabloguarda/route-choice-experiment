@@ -4,5 +4,6 @@ Lab experiment programmed in Python and designed to study route choice in public
 ## Development setup
 
 1. Clone the repository
+2. Create virtual environment
 3. Install the development dependencies: `pip install -r requirements/dev.txt`
 4. Run Main.py

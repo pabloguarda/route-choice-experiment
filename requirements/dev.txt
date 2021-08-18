@@ -1,2 +1,2 @@
-pyqt4
+pyqt5
 pyinstaller

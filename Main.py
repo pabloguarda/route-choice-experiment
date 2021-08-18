@@ -98,6 +98,9 @@ window.fontSizeTitle = 26 #Size of the titles in the stacked widget pages' of th
 #id of the experiment
 window.experimentId = 1 #This value should be changed if a experiment with new parameters will be run (for example, number of participants of the experiment)
 
+#Experiment description
+window.experimentDescription = ''
+
 #Conditions for the experiments (waiting time)
 window.waitingTimes = [1,2,3,4,5] #More conditions can be added and the program will automatically modify output. IN this example, the conditions are 1..5 minutes of waiting time
 window.waitingTime = window.waitingTimes[randint(1, len(window.waitingTimes))-1] # Generate a random waiting time depending on the conditions
@@ -1780,16 +1783,16 @@ def setupExperimentDescription(experiment, grid, fontIncreaseFactor = 1, descrip
 
     # if ui.scrollExperimentDescription is None:
     #
-    #     #Create a Scroll Area Widget to add on it the QLabel that contains the text displayed in the description page.
-    #     ui.scrollExperimentDescription = QScrollArea()
-        # ui.scrollExperimentDescription.setFrameShape(QFrame.Box)
+    #Create a Scroll Area Widget to add on it the QLabel that contains the text displayed in the description page.
+    ui.scrollExperimentDescription = QScrollArea()
+    ui.scrollExperimentDescription.setFrameShape(QFrame.Box)
     ui.scrollExperimentDescription.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
     ui.scrollExperimentDescription.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
     ui.scrollExperimentDescription.setEnabled(False)
     ui.scrollExperimentDescription.setFrameShape(QFrame.NoFrame)
     ui.scrollExperimentDescription.setStyleSheet("background-color:transparent;")
 
-    # ui.lblExperimentDescription = QLabel()
+    ui.lblExperimentDescription = QLabel()
     ui.lblExperimentDescription.setFont(QFont(window.fontLetter, window.fontFactor*fontIncreaseFactor* 20))
 
     #Format of the Qlabel widget that displays the text of experiment's description page to the user

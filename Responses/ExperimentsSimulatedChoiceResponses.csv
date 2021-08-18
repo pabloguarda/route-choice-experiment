@@ -39,3 +39,10 @@ simulatedControlCondition,99,Test,99,1,decision,1,1,1,1,1,20052020,184808,halfRa
 simulatedControlCondition,99,Test,99,1,confirmation,1,1,1,1,1,20052020,184812,halfRandom,2,0,2,1,3,east,west,control,clockwise,counterclockwise,clockwise,blue,red,blue,100
 simulatedControlCondition,99,Test,99,2,decision,1,1,2,2,1,20052020,184816,halfRandom,2,0,2,1,2,east,west,control,clockwise,counterclockwise,clockwise,blue,red,blue,NA
 simulatedControlCondition,99,Test,99,2,confirmation,1,1,2,2,1,20052020,184820,halfRandom,2,0,2,1,3,east,west,control,clockwise,counterclockwise,clockwise,blue,red,blue,100
+simulatedControlCondition,99,Test,99,1,decision,1,1,1,1,1,20052020,193026,halfRandom,2,0,2,1,2,west,east,treatment,counterclockwise,clockwise,clockwise,red,blue,blue,NA
+simulatedControlCondition,99,Test,99,1,confirmation,1,1,1,1,1,20052020,193031,halfRandom,2,0,2,1,3,west,east,treatment,counterclockwise,clockwise,clockwise,red,blue,blue,100
+simulatedControlCondition,99,Test,99,2,decision,1,1,2,2,1,20052020,193037,halfRandom,2,0,2,1,2,east,west,treatment,counterclockwise,clockwise,clockwise,red,blue,blue,NA
+simulatedControlCondition,99,Test,99,2,confirmation,1,1,2,2,1,20052020,193041,halfRandom,2,0,2,1,3,east,west,treatment,counterclockwise,clockwise,clockwise,red,blue,blue,100
+simulatedControlCondition,99,Test,99,3,decision,1,1,3,3,1,20052020,193053,halfRandom,4,0,4,2,4,east,west,control,clockwise,counterclockwise,clockwise,red,blue,red,NA
+simulatedControlCondition,99,Test,99,3,confirmation,1,1,3,3,1,20052020,193058,halfRandom,4,0,4,2,6,east,west,control,clockwise,counterclockwise,clockwise,red,blue,red,100
+simulatedControlCondition,99,Test,99,1,decision,1,1,1,1,1,20052020,193458,halfRandom,2,0,2,1,2,east,west,control,counterclockwise,clockwise,counterclockwise,red,blue,red,NA

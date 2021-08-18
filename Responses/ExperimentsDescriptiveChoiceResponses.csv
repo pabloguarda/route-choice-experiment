@@ -17,3 +17,10 @@ descriptiveControl,99,Test,99,2,1,1,2,3,3,20052020,161514,4,halfRandom,control,c
 descriptiveControl,99,Test,99,3,6,2,10,1,1,20052020,161925,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
 descriptiveControl,99,Test,99,2,6,4,6,2,2,20052020,161926,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
 descriptiveControl,99,Test,99,2,1,1,2,1,1,20052020,182636,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,99,Test,99,3,1,1,3,1,1,20052020,193100,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,99,Test,99,2,1,1,2,2,2,20052020,193103,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,99,Test,99,1,1,1,1,3,3,20052020,193105,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,99,Test,99,3,1,1,3,1,1,20052020,193628,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,99,Test,99,1,1,1,1,2,2,20052020,193629,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,99,Test,99,2,1,1,2,3,3,20052020,193630,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,99,Test,99,3,6,3,11,1,1,20052020,193658,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B

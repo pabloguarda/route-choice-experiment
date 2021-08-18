@@ -2,6 +2,12 @@
 venv/
 env/
 
+#Data generated from a current instance of the experiment 
+Responses/*
+
+# Code that was not used in production
+Chunks.py
+
 # Pycharm internal files
 .idea/
 
@@ -11,10 +17,6 @@ __pycache__/
 
 #Git internal files
 .git/
-Responses/Participant0.csv
-Responses/Participant1.csv
-Responses/Participant2.csv
-Responses/Participant99.csv
 Scripts/__pycache__/Experiment.cpython-37.pyc
 Scripts/__pycache__/ITS.cpython-37.pyc
 Scripts/__pycache__/Journey.cpython-37.pyc

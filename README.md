@@ -1,5 +1,6 @@
 # LabExperimentUCLPUC
-Lab experiment programmed in Python and designed to study route choice in public transport. The experiment instructions were written in Spanish and English as participants were from Santiago, Chile (N=36, 50%) and London, UK (N=36, 50%)
+Lab experiment programmed in Python and designed to study route choice in public transport. The experiment instructions were written in Spanish and English as half of participants were from Santiago, Chile and London, UK. To have an overview of the experiment and the research project, please visit this link 
+https://pabloguarda.github.io/research/RouteChoice/
 
 ## Development setup
 

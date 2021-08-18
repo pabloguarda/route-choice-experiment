@@ -4,6 +4,7 @@ env/
 
 #Data generated from a current instance of the experiment 
 Responses/*
+!Responses/.keep
 
 # Code that was not used in production
 Chunks.py

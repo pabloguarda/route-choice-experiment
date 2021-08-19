@@ -11,5 +11,4 @@ https://pabloguarda.github.io/research/RouteChoice/. Code compatible with PYQT5 
 4. Run `python3 Main.py`
 
 # Video 
-
-Uploading ExperiencedExperimentControlConditionNormal.mp4…
+https://user-images.githubusercontent.com/25504487/130095997-1f3338c7-bbfe-498f-98a6-15a454a06ce2.mp4

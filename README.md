@@ -12,4 +12,4 @@ https://pabloguarda.github.io/research/RouteChoice/. Code compatible with PYQT5 
 
 # Video 
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+Uploading ExperiencedExperimentControlConditionNormal.mp4…

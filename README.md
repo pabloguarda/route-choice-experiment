@@ -9,3 +9,7 @@ https://pabloguarda.github.io/research/RouteChoice/. Code compatible with PYQT5 
 3. Activate virtual environment `source venv/bin/activate`
 3. Install the development dependencies: `pip install -r requirements/dev.txt`
 4. Run `python3 Main.py`
+
+# Video 
+
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)

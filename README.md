@@ -1,6 +1,6 @@
-# LabExperimentUCLPUC
-Lab experiment programmed in Python and designed to study route choice in public transport. The experiment instructions were written in Spanish and English as half of participants were from Santiago, Chile and London, UK. To have an overview of the experiment and the research project, please visit this link 
-https://pabloguarda.github.io/research/RouteChoice/. Code compatible with PYQT5 and Python 3.
+# Perceived route choices
+Lab experiment programmed in Python and designed to study the impact of time perception on route choices in public transport. The experiment instructions were written in Spanish and English as half of participants were from Santiago, Chile and London, UK. To have an overview of the experiment and the research project, please visit this link 
+https://pabloguarda.github.io/research/RouteChoice/. Implementation is supported by PyQt5 and Python 3.
 
 ## Development setup
 

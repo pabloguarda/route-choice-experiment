@@ -1,5 +1,5 @@
 # Perceived route choice experiment
-Lab experiment programmed in Python and designed to study the impact of time perception on route choices in public transport. The experiment instructions were written in Spanish and English as half of participants were from Santiago, Chile and London, UK. To have an overview of the experiment and the research project, please visit this link 
+Lab experiment programmed in Python and designed to study the impact of time perception on route choices in public transport. The experiment instructions were written in Spanish and English as half of participants were from Santiago, Chile and London, UK. To have an overview of the experiment and the research project, please visit 
 https://pabloguarda.github.io/research/RouteChoice/. Implementation is supported by PyQt5 and Python 3.
 
 ## Development setup

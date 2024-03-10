@@ -11,4 +11,4 @@ https://pabloguarda.github.io/research/4-travel-behavior/. Implementation is sup
 4. Run `python3 Main.py`
 
 # Video 
-https://user-images.githubusercontent.com/25504487/130095997-1f3338c7-bbfe-498f-98a6-15a454a06ce2.mp4
+(Videos/thumbnail-experiment-video.png)(https://user-images.githubusercontent.com/25504487/130095997-1f3338c7-bbfe-498f-98a6-15a454a06ce2.mp4)
